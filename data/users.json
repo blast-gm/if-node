@@ -1,0 +1,20 @@
+[
+  {
+    "username": "Blast",
+    "password": "123456"
+  },
+  {
+    "username": "Blast2",
+    "password": "123456",
+    "email": "blast@uns.net.br"
+  },
+  {
+    "username": "test",
+    "password": "test"
+  },
+  {
+    "username": "testt",
+    "password": "123456",
+    "email": "test@test.com"
+  }
+]

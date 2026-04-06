@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Login</title>
+        <link rel="stylesheet" href="/css/styles.css">
+    </head>
+    <body>
+        <div class="navbar">
+            <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/register">Registrar</a></li>
+            </ul>
+        </div>
+        <div class="formauth">
+            <div>
+                <h1>Página de Login</h1>
+                <form action="/login" method="POST">
+                    <label>Usuário:</label>
+                    <input type="text" name="username" required placeholder="Usuário"><br>
+                    <label style="display: block; text-align: center; font-size: 18px;">Senha:</label>
+                    <input type="password" name="password" required placeholder="Senha"><br>
+                    <button type="submit">Entrar</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

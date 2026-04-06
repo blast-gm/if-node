@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Registro</title>
+        <link rel="stylesheet" href="/css/styles.css">
+    </head>
+    <body>
+        <div class="navbar">
+            <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/login">Login</a></li>
+            </ul>
+        </div>
+        <div class="formauth">
+            <div>
+                <h1>Página de Registro</h1>
+                <form action="/register" method="POST">
+                    <label>Nome de usuário:</label>
+                    <input type="text" name="username" required placeholder="Usuário"><br>
+                    <label>Endereço de email:</label>
+                    <input type="email" name="email" required placeholder="Email"><br>
+                    <label>Senha:</label>
+                    <input type="password" name="password" required placeholder="Senha"><br>
+                    <button type="submit">Registrar</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
